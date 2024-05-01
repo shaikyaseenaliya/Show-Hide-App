@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.show-hide-app-container {
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+}
+.show-hide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.show-hide-heading {
+  align-self: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 46px;
+  font-family: 'Roboto';
+}
+.show-hide-container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-around;
+}
+.show-hide-button {
+  color: #dd1264;
+  border-color: #dddddd;
+  margin-right: 20px;
+  border-radius: 18px;
+  font-size: 16px;
+  height: 5vh;
+  width: 14vw;
+  cursor: pointer;
+}
+.show-hide-card-para {
+  height: 12vh;
+  width: 20vw;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-right:30px;
+}
+p {
+  color: #000000;
+  text-align: center;
+  font-size: 32px;
+}
+.show-hide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
